@@ -1,0 +1,7 @@
+import pandas as pd
+# โหลดไฟล์ข้อมูล Netflix ที่คุณอัปโหลดไว้
+df = pd.read_csv('netflix_top10_Budget_Revenue.csv')
+# ดูข้อมูล 5 แถวแรก
+print(df.head())
+# ดูข้อมูลสรุปเบื้องต้น
+print(df.info())
